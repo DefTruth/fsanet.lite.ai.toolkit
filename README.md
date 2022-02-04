@@ -56,9 +56,9 @@ TNN模型文件下载地址，([Baidu Drive](https://pan.baidu.com/s/1lvM2YKyUbE
 在[lite.ai.toolkit](https://github.com/DefTruth/lite.ai.toolkit) 中，FSANet的实现类为：
 
 ```c++
-class LITE_EXPORTS lite::cv::face::detect::FSANet;
-class LITE_EXPORTS lite::mnn::cv::face::detect::FSANet;
-class LITE_EXPORTS lite::tnn::cv::face::detect::FSANet;
+class LITE_EXPORTS lite::cv::face::pose::FSANet;
+class LITE_EXPORTS lite::mnn::cv::face::pose::FSANet;
+class LITE_EXPORTS lite::tnn::cv::face::pose::FSANet;
 ```  
 
 该类型目前包含1公共接口`detect`用于进行头部姿态检测。
